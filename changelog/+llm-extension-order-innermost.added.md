@@ -1,0 +1,1 @@
+- Added `BaseLLMExtension.ORDER_INNERMOST`, the `order` of an LLM extension that sits "closest" to its service, closer than any other: it filters what the service pushes before any other extension does.
